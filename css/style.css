@@ -227,10 +227,10 @@ li {
   display: inline-block;
   padding: 0 6px; }
 
-.hero {
+.hero-container {
   max-width: 1200px;
   height: 400px;
-  background: url("/images/hero.jpg") no-repeat center top;
+  background: url("../images/hero.jpg") no-repeat center top;
   background-size: contain; }
 
 .slide-content {
@@ -302,7 +302,7 @@ footer {
 =============================================*/
 /* -- BREAK 1 -- */
 @media all and (max-width: 960px) {
-  .hero {
+  .hero-container {
     height: 320px; }
   .slide-content {
     padding: 4px; }
@@ -320,7 +320,7 @@ footer {
     line-height: 1.2; }
   .inner-large {
     padding: 0; }
-  .hero {
+  .hero-container {
     height: 280px; }
   .slide-content {
     padding: 4px; }
@@ -336,5 +336,7 @@ footer {
   html {
     font-size: 12px;
     line-height: 1.2; }
-  .hero {
-    height: 220px; } }
+  .hero-container {
+    height: 220px; }
+  input {
+    width: 220px; } }
