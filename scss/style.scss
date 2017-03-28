@@ -1,0 +1,70 @@
+/*
+Name: Cult Typography
+URL: https://richardmiddleton.me/cult
+Author: Richard Middleton
+Author URL: https://richardmiddleton.me
+Description: Simple typography framework to get your project started, fast.
+Version: 1.0
+License: MIT License
+License URI: https://opensource.org/licenses/MIT
+*/
+
+
+@import "normalise";
+@import "colors";
+@import "typography";
+@import "buttons";
+@import "utilities";
+
+@import "header";
+@import "content";
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    background: $background;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;}
+
+
+section {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+article {margin: 52px 0}
+
+
+
+footer {
+    background: $footer;
+	display: table;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: $white;
+    a {
+        color: $white;
+    }
+}
+
+
+
+@import "media-queries";

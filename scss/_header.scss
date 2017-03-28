@@ -1,0 +1,54 @@
+header {
+    margin-bottom: 30px;
+}
+
+.top-nav {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+	display: table;
+}
+
+.top-nav-inner {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Open Sans';
+ a, i {
+    color: $light-grey;
+    }
+    i:hover, a:hover {color: lighten($light-grey, 10)}
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border: 1px solid $black;
+	padding: 0 6px;
+	font-size: 	0.9rem;
+}
+
+input[type=text]:focus {
+	outline: none;
+	border:  none;
+    border: 1px solid $black;
+}
+
+.search-btn {
+width: 30px;
+height: 30px;
+border: none;
+background: none;
+margin-left: -36px;
+padding: 0 0 16px;
+i {
+    color: $grey;
+    font-size: 0.8rem;
+}
+}
+
+ul {list-style-type: none}
+
+li {
+    display: inline;
+    padding: 0 6px;
+}
