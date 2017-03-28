@@ -198,7 +198,7 @@ header {
     color: #c6c5c5; }
 
 input {
-  width: 500px;
+  width: 400px;
   height: 30px;
   border: 1px solid #262626;
   padding: 0 6px;
@@ -224,12 +224,12 @@ ul {
   list-style-type: none; }
 
 li {
-  display: inline;
+  display: inline-block;
   padding: 0 6px; }
 
 .hero {
   max-width: 1200px;
-  height: 420px;
+  height: 400px;
   background: url("/images/hero.jpg") no-repeat center top;
   background-size: contain; }
 
@@ -301,7 +301,40 @@ footer {
 =                 MEDIA QUERIES               =
 =============================================*/
 /* -- BREAK 1 -- */
+@media all and (max-width: 960px) {
+  .hero {
+    height: 320px; }
+  .slide-content {
+    padding: 4px; }
+    .slide-content h1 {
+      font-size: 2.6rem; }
+    .slide-content h3 {
+      font-size: 1.4rem; }
+    .slide-content h4 {
+      font-size: 1rem; } }
+
+/* -- BREAK 1 -- */
 @media all and (max-width: 800px) {
   html {
-    font-size: 18px;
-    line-height: 1.4; } }
+    font-size: 14px;
+    line-height: 1.2; }
+  .inner-large {
+    padding: 0; }
+  .hero {
+    height: 280px; }
+  .slide-content {
+    padding: 4px; }
+    .slide-content h1 {
+      font-size: 2.6rem; }
+    .slide-content h3 {
+      font-size: 1.4rem; }
+    .slide-content h4 {
+      font-size: 1rem; } }
+
+/* -- BREAK 2 -- */
+@media all and (max-width: 600px) {
+  html {
+    font-size: 12px;
+    line-height: 1.2; }
+  .hero {
+    height: 220px; } }

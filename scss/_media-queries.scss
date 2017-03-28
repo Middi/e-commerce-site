@@ -3,12 +3,70 @@
 =============================================*/
 
 
+/* -- BREAK 1 -- */
+
+@media all and (max-width: 960px) {
+.hero {
+    height: 320px;
+    }
+
+.slide-content {
+    padding: 4px;
+  h1 {
+    font-size: 2.6rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+    h4 {
+    font-size: 1rem;
+  }
+}
+}
+
 
 /* -- BREAK 1 -- */
 
 @media all and (max-width: 800px) {
   html {
-    font-size: 18px;
-    line-height: 1.4;
+    font-size: 14px;
+    line-height: 1.2;
   }
+
+.inner-large {
+    padding: 0;
+} 
+
+.hero {
+    height: 280px;
+    }
+
+
+.slide-content {
+    padding: 4px;
+  h1 {
+    font-size: 2.6rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+    h4 {
+    font-size: 1rem;
+  }
+}
+}
+
+/* -- BREAK 2 -- */
+
+@media all and (max-width: 600px) {
+
+  html {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .hero {
+    height: 220px;
+    }
+
 }
